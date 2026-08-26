@@ -1,0 +1,5 @@
+PaymentGateway | ERROR: Connection refused at db.connect() line 45 | Timeout after 30s
+AuthService | CRITICAL: Memory limit exceeded at /usr/lib/python3.11/threading.py:982 | Heap dump triggered
+UserAPI | WARNING: 502 Bad Gateway from upstream nginx | Retrying in 5s
+InventoryService | ERROR: KeyError 'stock_count' in process_order() | Null value in DB column
+EmailWorker | FATAL: SMTPAuthenticationError: 535 5.7.8 Error: authentication failed | Credentials expired
